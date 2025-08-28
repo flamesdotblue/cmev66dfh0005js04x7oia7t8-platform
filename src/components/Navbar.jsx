@@ -2,7 +2,7 @@ import { Film, Sparkles } from 'lucide-react';
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-white/5 bg-[#07080d]/40 backdrop-blur-xl">
+    <header className="sticky top-0 z-40 border-b border-white/5 bg-[#07080d]/50 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-2">
           <div className="relative">
