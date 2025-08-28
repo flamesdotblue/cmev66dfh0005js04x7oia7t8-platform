@@ -5,18 +5,18 @@ export default function Features() {
     {
       icon: Aperture,
       title: 'Mystic Circle',
-      desc: 'A golden ray carves a living circle in space — the core of Strange\'s sigils rendered in real time.'
+      desc: "A golden ray carves a living circle in space — the core of Strange's sigils rendered in real time.",
     },
     {
       icon: Hourglass,
       title: 'Temporal Weave',
-      desc: 'Feel time stretch and fold as the scene flows, echoing the Eye of Agamotto\'s power.'
+      desc: "Feel time stretch and fold as the scene flows, echoing the Eye of Agamotto's power.",
     },
     {
       icon: Sparkle,
       title: 'Arcane Glow',
-      desc: 'Subtle halos and gradients illuminate the darkness, guiding your focus to the ritual.'
-    }
+      desc: 'Subtle halos and gradients illuminate the darkness, guiding your focus to the ritual.',
+    },
   ];
 
   return (
@@ -35,7 +35,10 @@ export default function Features() {
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:mt-14 lg:grid-cols-3">
           {items.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors hover:border-yellow-400/30 hover:bg-yellow-400/[0.06]">
+            <div
+              key={title}
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors hover:border-yellow-400/30 hover:bg-yellow-400/[0.06]"
+            >
               <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-black/50 text-yellow-300 group-hover:border-yellow-300/50">
                 <Icon className="h-5 w-5" />
               </div>
